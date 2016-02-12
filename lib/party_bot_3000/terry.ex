@@ -1,4 +1,4 @@
-defmodule PartyBot3001.Terry do
+defmodule PartyBot3000.Terry do
 
   @prefix ~w(bloody fucking shitting twatting tossing spunking)
   @object ~w(fuck shit arse toss spunk turd)
