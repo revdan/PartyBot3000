@@ -14,7 +14,7 @@ defmodule PartyBot3001.Terry do
   end
 
   defp sample(list) do
-    list |> Enum.shuffle |> Enum.at(0) |> String.downcase
+    list |> Enum.shuffle |> hd |> String.downcase
   end
 
   defp optional_prefix do
