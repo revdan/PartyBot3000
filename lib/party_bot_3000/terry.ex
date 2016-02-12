@@ -8,8 +8,9 @@ defmodule PartyBot3000.Terry do
     )
 
   def fy do
-    words = [optional_prefix, sample(@object), sample(@intensifier), optional_wonder]
-    words |> Enum.join(" ") |> String.strip
+    [optional_prefix, sample(@object), sample(@intensifier), optional_wonder]
+    |> Enum.join(" ")
+    |> String.strip
   end
 
   defp sample(list) do
