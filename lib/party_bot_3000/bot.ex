@@ -51,7 +51,7 @@ defmodule PartyBot3000.Bot do
 
   defp process_message(msg) do
     case String.split(msg, " ") do
-      ["help"|_]        -> "I don't like helping"
+      ["help"|_]        -> "I like helping!"
       ["gif"|query]     -> PartyBot3000.Giphy.gif(Enum.join(query, " "))
       ["sticker"|query] -> PartyBot3000.Giphy.sticker(Enum.join(query, " "))
       ["terryfy"]       -> PartyBot3000.Terry.fy

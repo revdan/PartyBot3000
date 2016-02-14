@@ -3,7 +3,7 @@ defmodule PartyBot3000.Mixfile do
 
   def project do
     [app: :party_bot_3000,
-     version: "0.0.5",
+     version: "0.0.6",
      elixir: "~> 1.2.2",
      deps: deps]
   end
@@ -19,6 +19,7 @@ defmodule PartyBot3000.Mixfile do
       {:slack, "~> 0.4.1"},
       {:httpoison, "~> 0.8.1"},
       {:poison, "~> 2.0"},
+      {:sshex, "2.0.1"},
       {:websocket_client, git: "https://github.com/jeremyong/websocket_client"}
     ]
   end
